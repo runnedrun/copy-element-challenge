@@ -1,7 +1,8 @@
-var el = $(".element")
-var elementsList = $("#elements-list")
+// hints!
+// 1. find the element in index.html that you want to copy
+// 2.
 
-var colorList = ["red", "green", "blue", "yellow", "orange", "purple", "cornsilk", "violet", "magenta", "lightcoral"]
+var elementsList = $("#elements-list")
 
 colorList.forEach(function(color) {
   var newEl = el.clone()
